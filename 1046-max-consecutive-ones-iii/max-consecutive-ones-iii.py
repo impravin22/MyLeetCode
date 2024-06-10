@@ -8,7 +8,6 @@ class Solution:
         for right in range(len(nums)):
             if nums[right] == 0:
                 zeros_count += 1
-
             while zeros_count > k:
                 if nums[left] == 0:
                     zeros_count -= 1
